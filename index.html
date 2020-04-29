@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <link rel="stylesheet" href="style.css" type="text/css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <!-- <center>
+        <br>
+        <br>
+        <br>
+        <table width="900" >
+             <tr>
+                 <td bgcolor="Yellow"><h1><center>The Periodic Table</center> </h1>  </td>
+            </tr>
+        </table>    
+    <table  width="900" bgcolor="white" id="periodic">
+        
+       
+        <tr id="p1">
+            <td style="border: 1px solid black;" bgcolor="violet" id="H" title="Hydrogen"><sup>1</sup>H</td>
+            <td class="empty" colspan="16"></td>
+            <td style="border: 1px solid black;" bgcolor="#e6ffff" id="He" title="Helium"><sup>2</sup>He</td>
+        </tr>
+        <tr id="p2">
+            <td style="border: 1px solid black;" bgcolor="violet"  id="Li" title="Lithium"><sup>3</sup>Li</td>
+            <td style="border: 1px solid black;" bgcolor="#66d9ff" id="Be" title="Beryllium"><sup>4</sup>Be</td>
+            <td class="empty" id="desc" colspan="10" rowspan="2"></td>
+            <td style="border: 1px solid black;" bgcolor="#b38600" id="B" title="Boron"><sup>5</sup>B</td>
+            <td style="border: 1px solid black;" bgcolor="orange"  id="C" title="Carbon"><sup>6</sup>C</td>
+            <td style="border: 1px solid black;" bgcolor="orange"  id="N" title="Nitrogen"><sup>7</sup>N</td>
+            <td style="border: 1px solid black;"v bgcolor="orange"  id="O" title="Oxygen"><sup>8</sup>O</td>
+            <td style="border: 1px solid black;" bgcolor="#ffffb3" id="F" title="Fluorine"><sup>9</sup>F</td>
+            <td style="border: 1px solid black;" bgcolor="#e6ffff" id="Ne" title="Neon"><sup>10</sup>Ne</td>
+        </tr>
+        <tr id="p3">
+            <td style="border: 1px solid black;" bgcolor="violet"  id="Na" title="Sodium"><sup>11</sup>Na</td>
+            <td style="border: 1px solid black;" bgcolor="#66d9ff" id="Mg" title="Magnesium"><sup>12</sup>Mg</td>
+            <td style="border: 1px solid black;" bgcolor="#80ff80" id="Al" title="Aluminium"><sup>13</sup>Al</td>
+            <td style="border: 1px solid black;" bgcolor="#b38600" id="Si" title="Silicon"><sup>14</sup>Si</td>
+            <td style="border: 1px solid black;" bgcolor="orange"  id="P" title="Phosphorus"><sup>15</sup>P</td>
+            <td style="border: 1px solid black;" bgcolor="orange"  id="S" title="Sulfur"><sup>16</sup>S</td>
+            <td style="border: 1px solid black;" bgcolor="#ffffb3" id="Cl" title="Chlorine"><sup>17</sup>Cl</td>
+            <td style="border: 1px solid black;" bgcolor="#e6ffff" id="Ar" title="Argon"><sup>18</sup>Ar</td>
+        </tr>
+        <tr id="p4">
+            <td style="border: 1px solid black;" bgcolor="violet"  id="K" title="Potassium"><sup>19</sup>K</td>
+            <td style="border: 1px solid black;" bgcolor="#66d9ff" id="Ca" title="Calcium"><sup>20</sup>Ca</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d"  id="Sc" title="Scandium"><sup>21</sup>Sc</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d"  id="Ti" title="Titanium"><sup>22</sup>Ti</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="V" title="Vanadium"><sup>23</sup>V</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Cr" title="Chromium"><sup>24</sup>Cr</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Mn" title="Manganese"><sup>25</sup>Mn</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Fe" title="Iron"><sup>26</sup>Fe</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Co" title="Cobalt"><sup>27</sup>Co</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Ni" title="Nickel"><sup>28</sup>Ni</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Cu" title="Copper"><sup>29</sup>Cu</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Zn" title="Zinc"><sup>30</sup>Zn</td>
+            <td style="border: 1px solid black;" bgcolor="#80ff80" id="Ga" title="Gallium"><sup>31</sup>Ga</td>
+            <td style="border: 1px solid black;" bgcolor="#b38600" id="Ge" title="Germanium"><sup>32</sup>Ge</td>
+            <td style="border: 1px solid black;" bgcolor="#b38600" id="As" title="Arsenic"><sup>33</sup>As</td>
+            <td style="border: 1px solid black;" bgcolor="orange"  id="Se" title="Selenium"><sup>34</sup>Se</td>
+            <td style="border: 1px solid black;" bgcolor="#ffffb3" id="Br" title="Bromine"><sup>35</sup>Br</td>
+            <td style="border: 1px solid black;" bgcolor="#e6ffff" id="Kr" title="Krypton"><sup>36</sup>Kr</td>
+        </tr>
+        <tr id="p5">
+            <td style="border: 1px solid black;" bgcolor="violet"  id="Rb" title="Rubidium"><sup>37</sup>Rb</td>
+            <td style="border: 1px solid black;" bgcolor="#66d9ff" id="Sr" title="Strontium"><sup>38</sup>Sr</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Y" title="Yttrium"><sup>39</sup>Y</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Zr" title="Zirconium"><sup>40</sup>Zr</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Nb" title="Niobium"><sup>41</sup>Nb</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Mo" title="Molybdenum"><sup>42</sup>Mo</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Tc" title="Technetium"><sup>43</sup>Tc</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Ru" title="Ruthenium"><sup>44</sup>Ru</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Rh" title="Rhodium"><sup>45</sup>Rh</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Pd" title="Palladium"><sup>46</sup>Pd</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Ag" title="Silver"><sup>47</sup>Ag</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Cd" title="Cadmium"><sup>48</sup>Cd</td>
+            <td style="border: 1px solid black;" bgcolor="#80ff80" id="In" title="Indium"><sup>49</sup>In</td>
+            <td style="border: 1px solid black;" bgcolor="#80ff80" id="Sn" title="Tin"><sup>50</sup>Sn</td>
+            <td style="border: 1px solid black;" bgcolor="#b38600" id="Sb" title="Antimony"><sup>51</sup>Sb</td>
+            <td style="border: 1px solid black;" bgcolor="#b38600" id="Te" title="Tellurium"><sup>52</sup>Te</td>
+            <td style="border: 1px solid black;" bgcolor="#ffffb3" id="I" title="Iodine"><sup>53</sup>I</td>
+            <td style="border: 1px solid black;" bgcolor="#e6ffff" id="Xe" title="Xenon"><sup>54</sup>Xe</td>
+        </tr>
+        <tr id="p6">
+            <td style="border: 1px solid black;" bgcolor="violet"  id="Cs" title="Caesium"><sup>55</sup>Cs</td>
+            <td style="border: 1px solid black;" bgcolor="#66d9ff" id="Ba" title="Barium"><sup>56</sup>Ba</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" class="empty"><small><sup>57-71</sup></small></td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Hf" title="Hafnium"><sup>72</sup>Hf</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Ta" title="Tantalum"><sup>73</sup>Ta</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="W" title="Tungsten"><sup>74</sup>W</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Re" title="Rhenium"><sup>75</sup>Re</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Os" title="Osmium"><sup>76</sup>Os</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Ir" title="Iridium"><sup>77</sup>Ir</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Pt" title="Platinum"><sup>78</sup>Pt</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Au" title="Gold"><sup>79</sup>Au</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Hg" title="Mercury"><sup>80</sup>Hg</td>
+            <td style="border: 1px solid black;" bgcolor="#80ff80" id="Tl" title="Thallium"><sup>81</sup>Tl</td>
+            <td style="border: 1px solid black;" bgcolor="#80ff80" id="Pb" title="Lead"><sup>82</sup>Pb</td>
+            <td style="border: 1px solid black;" bgcolor="#80ff80" id="Bi" title="Bismuth"><sup>83</sup>Bi</td>
+            <td style="border: 1px solid black;" bgcolor="#b38600" id="Po" title="Polonium"><sup>84</sup>Po</td>
+            <td style="border: 1px solid black;" bgcolor="#ffffb3" id="At" title="Astatine"><sup>85</sup>At</td>
+            <td style="border: 1px solid black;" bgcolor="#e6ffff" id="Rn" title="Radon"><sup>86</sup>Rn</td>
+        </tr>
+        <tr id="p7">
+            <td style="border: 1px solid black;" bgcolor="violet"  id="Fr" title="Francium"><sup>87</sup>Fr</td>
+            <td style="border: 1px solid black;" bgcolor="#66d9ff" id="Ra" title="Radium"><sup>88</sup>Ra</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" class="empty"><small><sup>89-103</sup></small></td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Rf" title="Rutherfordium"><sup>104</sup>Rf</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Db" title="Dubnium"><sup>105</sup>Db</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Sg" title="Seaborgium"><sup>106</sup>Sg</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Bh" title="Bohrium"><sup>107</sup>Bh</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Hs" title="Hassium"><sup>108</sup>Hs</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Mt" title="Meitnerium"><sup>109</sup>Mt</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Ds" title="Darmstadtium"><sup>110</sup>Ds</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Rg" title="Roentgenium"><sup>111</sup>Rg</td>
+            <td style="border: 1px solid black;" bgcolor="#ffff4d" id="Cn" title="Copernicium"><sup>112</sup>Cn</td>
+            <td style="border: 1px solid black;" bgcolor="#f2f2f2" id="Nh" title="Nihonium"><sup>113</sup>Nh</td>
+            <td style="border: 1px solid black;" bgcolor="#f2f2f2" id="Fl" title="Flerovium"><sup>114</sup>Fl</td>
+            <td style="border: 1px solid black;" bgcolor="#f2f2f2" id="Mc" title="Moscovium"><sup>115</sup>Mc</td>
+            <td style="border: 1px solid black;" bgcolor="#f2f2f2" id="Lv" title="Livermorium"><sup>116</sup>Lv</td>
+            <td style="border: 1px solid black;" bgcolor="#f2f2f2" id="Ts" title="Tennessine"><sup>117</sup>Ts</td>
+            <td style="border: 1px solid black;" bgcolor="#f2f2f2" id="Og" title="Oganesson"><sup>118</sup>Og</td>
+        </tr>
+        <tr class="spacer">
+            <td class="empty" colspan=18></td>
+        </tr>
+        <tr>
+            <td class="empty" colspan="2"></td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="La" title="Lanthanum"><sup>57</sup>La</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Ce" title="Cerium"><sup>58</sup>Ce</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Pr" title="Praseodymium"><sup>59</sup>Pr</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Nd" title="Neodymium"><sup>60</sup>Nd</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Pm" title="Promethium"><sup>61</sup>Pm</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Sm" title="Samarium"><sup>62</sup>Sm</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Eu" title="Europium"><sup>63</sup>Eu</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Gd" title="Gadolinium"><sup>64</sup>Gd</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Tb" title="Terbium"><sup>65</sup>Tb</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Dy" title="Dysprosium"><sup>66</sup>Dy</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Ho" title="Holmium"><sup>67</sup>Ho</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Er" title="Erbium"><sup>68</sup>Er</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Tm" title="Thulium"><sup>69</sup>Tm</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Yb" title="Ytterbium"><sup>70</sup>Yb</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Lu" title="Lutetium"><sup>71</sup>Lu</td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td  class="empty" colspan="2"></td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Ac" title="Actinium"><sup>89</sup>Ac</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Th" title="Thorium"><sup>90</sup>Th</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Pa" title="Protactinium"><sup>91</sup>Pa</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="U" title="Uranium"><sup>92</sup>U</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Np" title="Neptunium"><sup>93</sup>Np</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Pu" title="Plutonium"><sup>94</sup>Pu</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Am" title="Americium"><sup>95</sup>Am</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Cm" title="Curium"><sup>96</sup>Cm</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Bk" title="Berkelium"><sup>97</sup>Bk</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Cf" title="Californium"><sup>98</sup>Cf</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Es" title="Einsteinium"><sup>99</sup>Es</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Fm" title="Fermium"><sup>100</sup>Fm</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="Md" title="Mendelevium"><sup>101</sup>Md</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6" id="No" title="Nobelium"><sup>102</sup>No</td>
+            <td style="border: 1px solid black;" bgcolor="#ffe6e6"id="Lr" title="Lawrencium"><sup>103</sup>Lr</td>
+            <td class="empty"></td>
+        </tr>
+    </table>
+    <h3><b>Done by Hassan Ahmed Khan</b></h3>
+</center> -->
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <table>
+        <tr>
+            <td class="icon-hover"><a href="https://www.facebook.com/pg/saylaniwelfare"><i class="fa fa-facebook"
+                        aria-hidden="true"></i></a></td>
+            <td class="icon-hover"><a href="https://twitter.com/OfficialSwit"><i class="fa fa-twitter"
+                        aria-hidden="true"></i></a></td>
+            <td class="icon-hover"><a href="https://www.instagram.com/saylaniwelfare/"><i class="fa fa-instagram"
+                        aria-hidden="true"></i></a></td>
+            <td class="icon-hover"><a href="https://www.instagram.com/saylaniwelfare/"><i class="fa fa-youtube"
+                        aria-hidden="true"></i></a>
+            </td>
+            <td class="icon-hover"><a href="https://wa.me/923331201585"><i class="fa fa-whatsapp"
+                        aria-hidden="true"></i></a></td>
+            <td>
+                <p class="firstline">Millions of people's life has changed, millions more awaiting your donation</p>
+            </td>
+            <td><button>UK Donor</button></td>
+            <td><button>Donate Now</button></td>
+            <td><button>SMIT Results</button></td>
+        </tr>
+    </table>
+    <br><br><br>
+    <div class="logo">
+        <img src="saylani-welfare.jpeg" alt="" width="200" height="100">
+    </div>
+    <div class="dropdown">
+        <nav>
+
+            <ul>
+                <li class="active"><a href="http://www.saylaniwelfare.com/home">Home</a></li>
+                <li><a href="#">About<i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="http://www.saylaniwelfare.com/Introduction">Introduction</a></li>
+                        <li><a href="http://www.saylaniwelfare.com/Chairman-Message">Chairman Message</a></li>
+                        <li><a href="http://www.saylaniwelfare.com/Saylani-Annual-Report">Saylani Annual Report</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Saylani Services<i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Education<i class="fa fa-angle-right"></i></a>
+                            <ul>
+                                <li><a href="#">Saylani Mass Training<i class="fa fa-angle-right"></i></a>
+                                    <ul>
+                                        <li><a href="#">SMIT Programs</a></li>
+                                        <li><a href="#">Faculty</a></li>
+                                        <li><a href="#">Results</a></li>
+                                        <li><a href="#">Entry Test Schedule</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Saylani Incubator</a></li>
+                                <li><a href="#">Green House</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Medical<i class="fa fa-angle-right"></i></a>
+                            <ul>
+                                <li><a href="#">Saylani Blood Bank and Thalassemia Center</a></li>
+                                <li><a href="#">Saylani Clinic/Hospital</a></li>
+                                <li><a href="#">Medical Internship Form</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Welfare<i class="fa fa-angle-right"></i></a>
+                            <ul>
+                                <li><a href="#">Family Adoption</a></li>
+                                <li><a href="#">Wedding Help</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Hajj Application Form</a></li>
+                        <li><a href="#">Saylani Dastarkhawn</a></li>
+                        <li><a href="#">Saylani RO Plant</a></li>
+                        <li><a href="#">Online Sadqah</a></li>
+                        <li><a href="#">Online Taweezat/Istekhara</a></li>
+                        <li><a href="#">Saylani Job Bank</a></li>
+                        <li><a href="#">Online Quran Academy</a>
+                            <ul>
+                                <li><a href="#">Online Quran Addmission</a></li>
+                                <li><a href="#">Quran App (Tafteesh)</a></li>
+                                <li><a href="#">Online Quran Regstration</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Saylani Online Masajid</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Future Project<i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Saylani University</a></li>
+                        <li><a href="#">Saylani City</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Donation<i class="fa fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="#">Bank Detail</a></li>
+                        <li><a href="#">Sadqa</a></li>
+                        <li><a href="#">Aqiqa</a></li>
+                        <li><a href="#">Other Donation</a></li>
+                        <li><a href="#">Corona Effecties</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br><br><br>
+    <div class="banner">
+        <img src="http://www.saylaniwelfare.com/public_html/images/saylani/Banner.jpeg" alt="banner" width="1348">
+    </div>
+    <marquee class="marquee-1" behavior="" direction="left" style="height: 25px;">(News-1 Dated:15-06-2019) PIAIC Next
+        Phase Admission in
+        Islamabad And
+        Faisalabad" (News-2 Dated:15-05-2019) Saylani Welfare Announced "Donation Application</marquee>
+    <section class="aboutintro">
+        <style>
+            h1 {
+                color: darkgreen;
+            }
+
+            span {
+                color: royalblue;
+            }
+        </style>
+        <h1><span>Intro</span>duction</h1>
+        <div class="icon">
+            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/favicon.png">
+        </div>
+        <p class="aboutsaylani">Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed
+            Farooqui, Saylani Welfare International Trust was built on the fundamentals of breaking the cycle of
+            poverty, alleviating the financial troubles of the poor, giving people a chance to live a dignified life and
+            spreading happiness. <br><br>
+            We are an organization that believes in lighting up the lives of underprivileged people across the world. We
+            endeavor to provide the best quality services in areas including food, education, medical and social welfare
+            free of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry
+            people each day, hundreds more are given the hope of life through medical health care, many are educated to
+            become leaders of tomorrow and several are given the opportunity to stand on their feet financially.
+            <br><br>
+            Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125
+            branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and
+            Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide
+            branches are operating under the guidance of a team of over 2,000 working professionals who help almost
+            125,000 people on a daily basis. <br><br>
+            We strongly believe that a little help goes a long way and our work would not be possible without the
+            generous support of our valuable donors. Our local and international donors have graciously lent us a hand
+            by supporting our causes and enabling us to serve the needs of people in need.
+        </p>
+    </section>
+    <div class="main">
+        <div class="one">
+            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_food_png.png"
+                style="height: 40px; margin-left: 100px;">
+            <h2 class="cen">125,000</h2>
+            <h5>Daily Dastrakhan<font color="#00FF00">(Monthly)</font>
+            </h5>
+        </div>
+        <div class="two">
+            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_family_png.png"
+                style="height: 40px; margin-left: 110px;">
+            <h2 class="cent">7,500</h2>
+            <h5>Family Adoption <font color="#00FF00">(Monthly)</font>
+            </h5>
+        </div>
+        <div class="three">
+            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_medical_png.png"
+                style="height: 40px; margin-left: 60px;">
+            <h2 class="cente">43,749</h2>
+            <h5>Medical<font color="#00FF00">(Monthly)</font>
+            </h5>
+        </div>
+        <div class="four">
+            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_education_png.png"
+                style="height: 40px; margin-left: 75px">
+            <h2 class="center">180,000</h2>
+            <h5>Education<font color="#00FF00">(Monthly)</font>
+            </h5>
+        </div>
+    </div>
+    <section class="aboutintro">
+        <style>
+            h1 {
+                color: darkgreen;
+            }
+
+            span {
+                color: royalblue;
+            }
+        </style>
+        <h1><span>What we </span>are doing?</h1>
+        <div class="icon">
+            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/favicon.png">
+        </div>
+        <br>
+        <div class="body">
+            <div class="container">
+                <div class="box">
+                    <div class="icon-1"><a href="#" class="hovers">
+                            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/onlinesadqah.png"
+                                width="70" alt="">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">ONLINE SADQAH</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon-1"> <a href="#" class="hovers">
+                            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/welfare.png"
+                                width="70" alt="">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">WELFARE</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon-1"><a href="#" class="hovers">
+                            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/medical.png"
+                                width="70" alt="">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">Medical</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="container">
+                <div class="box">
+                    <div class="icon-1"> <a href="#" class="hovers">
+                            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/Dastarkhwan.png"
+                                width="70" alt="">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">DASTARKHWAN</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon-1"> <a href="#" class="hovers">
+                            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/ROPLANT.png"
+                                width="70" alt="">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">RO PLANT</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon-1"><a href="#" class="hovers">
+                            <img src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/education.png"
+                                width="70" alt="">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">EDUCATION</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <h1 style="color: royalblue; text-align: left; font-size: 30px; margin-left: 110px;">MISSION AND UPCOMING
+            PROJECTS</h1>
+        <br><br>
+        <div class="bod">
+            <div class="contain">
+                <div class="box">
+                    <div class="media-left pull-left flip"><a href="#">
+                            <img class="pic"
+                                src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/Hepatitis.png">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">HEPATITIS</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="media-left pull-left flip"> <a href="#">
+                            <img class="pic"
+                                src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/housing.png">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">HOUSING SOCIETY</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bod">
+            <div class="contain">
+                <div class="box">
+                    <div class="media-left pull-left flip"><a href="#">
+                            <img class="pic"
+                                src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/IT.png">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">IT LITERACY</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="media-left pull-left flip"> <a href="#">
+                            <img class="pic"
+                                src="http://www.saylaniwelfare.com/public_html/images/saylani/icons/tharparkar.png">
+                        </a></div>
+                    <div class="content">
+                        <h3 style="color: royalblue;">Tharparkar</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="marquee-2">
+            <h3 style="color: royalblue; font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                UpcomingEvents</h3>
+            <br>
+            <p>
+
+                <marquee style="color: grey;" direction="up" width="250" height="200" scrollamount="2"
+                    onmouseover="this.stop();" onmouseout="this.start();">
+                    Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan .<a
+                        href="https://www.facebook.com/saylaniwelfare/posts/3164679946891260?__tn__=-R"
+                        style="color: blue; text-decoration: none;">More Details</a> <br><br>
+                    Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On Sunday 3rd March
+                    2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice Bahadurabad .<a
+                        href="https://www.facebook.com/saylaniwelfare/photos/a.258515937507690/3152781434747778/?type=3&theater>"
+                        style="color: blue; text-decoration: none;">More Details</a> <br><br>
+                    Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare
+                    International Trust, Saylani Mass I.T. Training .<a
+                        href="https://www.facebook.com/saylaniwelfare/posts/3124996217526300?__xts__[0]=68.ARCElwXqFXBXobZcA_UIl5WsTnqek6hA0692UZgzLiTQcX71VvEVoMgzqDV_LCU8l4vgjmKHex8j5abeGcQPzz-0Vo7g8gNqrP0CK04uhT29KI7ZBXw7L0UhSE9vpr7JOS4591gwSiYhmPbI_exl5O0PUbYyqzRyVjDhZf833fadxaHMxR3LURDcRfhfFRurM3x6cKNgZ7XwQi2vP6tA2-XS4HUzYNRUfZ5Yc4iUJAwXHOGi64EA62Drmy5c0mv0CZumqreWzE6JGBGOlQC5dMh7k07-qNBGwItqzarzu8CiNWC9kZMwzYyExhOY7JKF76U1ZzEbClh6A-yQYJ-qY1jbYQ&__tn__=-R>"
+                        style="color: blue; text-decoration: none;">More Details</a> <br><br>
+                    PIAIC Entrance Exam Merit Ranking List Announced.<a href="http://www.saylaniwelfare.com/result"
+                        style="color: blue; text-decoration: none;">More Details</a> <br><br> President of Pakistan (Dr.
+                    Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. <a
+                        href="https://www.facebook.com/saylaniwelfare/posts/3135103563182232?__xts__[0]=68.ARD9PTgM3DL_2vvulRqQ-b25KUD2P8X7TSS9g6gbxDfRdIBqgjNGJffSbV0ZcFmUFF5Ocrn-wvtpvDbjWBQxq0UHTlRJR1vEkgUOfm8Vk0ltcQp9K5q268QBcUMjujlPyCnBIxXcbe_Qjqbw1DXfCLQ1fFwBdGk77ndYxRXPrUVHrYybrBb5jWxu8GJQ37RpI7LLayc6xkve6gO149Ud-NWv_eF72blzToVI2fZW2ZWJUlRFSgWFK5jgrDGcsP-I7NBis9UXNfBBb55nXahKzJHvloneJh93hN9Wc3bIyvpn7v1IJSixyqcGRr_KHC-mO46gL9JUYx_acVfGdQDLUCBORw&__tn__=-R>"
+                        style="color: blue; text-decoration: none;">More Details</a>
+                </marquee>
+
+            </p>
+
+        </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br>
+        <br>
+        <section class="aboutintro">
+            <style>
+                h1 {
+                    color: darkgreen;
+                }
+
+                span {
+                    color: royalblue;
+                }
+            </style>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1><span>Image </span>Gallery</h1>
+            <div class="imagess">
+                <div class="gallery">
+                    <a target="_blank"
+                        href="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg">
+                        <img src="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg"
+                            width="600" height="400">
+                    </a>
+
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/food.jpg">
+                        <img src="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/food.jpg" width="600"
+                            height="400">
+                    </a>
+
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank"
+                        href="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat.jpg">
+                        <img src="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat.jpg"
+                            width="600" height="400">
+                    </a>
+
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank"
+                        href="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat2.jpg">
+                        <img src="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/hazrat2.jpg"
+                            width="600" height="400">
+                    </a>
+
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank"
+                        href="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg">
+                        <img src="http://www.saylaniwelfare.com/public_html/images/saylani/gallery/rashan2.jpg"
+                            width="600" height="400">
+                    </a>
+
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="footer">
+                <br>
+                <p style="margin-left: 40px; margin-left: 90px; color: gray;" >Head Office,
+                    <br> A-25, Bahadurabad Chowrangi
+                    Karachi, Pakistan </p>
+                <ul class="footer-content" style="margin-left: 90px; color: gray;">
+                    <li class="" > <i class="fa fa-phone" style="color: green;"></i>UAN: 111-729-526
+                    </li>
+                    <li class=""> <i class="fa fa-globe" style="color: green;"></i>(+0092-213)
+                        4130786-90</li>
+                    <li class=""> <i class="fa fa-phone" style="color: green;"></i>CELL: 92-311-1729526
+                    </li>
+                    <li class=""> <i class="fa fa-phone" style="color: green;"></i>USA NO +1(716)941
+                        7792 </li>
+                    <li class=""> <i class="fa fa-phone text-theme-colored mr-5" style="color: green;"></i>UK NO (+44)115 970
+                        6256 </li>
+                    <li class=""> <i
+                 
+                   class="fa fa-envelope-o text-theme-colored mr-5" style="color: green;"></i></a>info@saylaniwelfare.com</li>
+                   <div class="footer-content-2" style="margin: -280px 470px;">
+                       <h5 class="" style="font-size: 20px; color: white;">Useful Links</h5>
+                       
+                   </div>
+                </div>
+                <div class="footer-content-2">
+                    <h5 class="" style="color: white; font-size: 20px;">ConnectWithUs</h5>
+                    <ul style="display: inline-flex; padding: 2px; list-style-type: none;">
+                        <li><a href="https://www.facebook.com/pg/saylaniwelfare" target="_blank"><i class="fa fa-facebook" style="background-color: royalblue; border-radius: 5px;"></i></a></li>
+                        <li><a href="https://twitter.com/OfficialSwit" target="_blank"><i class="fa fa-twitter" style="background-color: royalblue; border-radius: 5px;"></i></a></li>
+                        <li><a href="https://www.instagram.com/saylaniwelfare/" target="_blank"><i class="fa fa-instagram text-white" style="background-color: royalblue; border-radius: 5px;"></i></a></li>
+                        <li><a href="https://www.youtube.com/c/SaylaniWelfareTrustOfficialPage" target="_blank"><i class="fa fa-youtube text-white" style="background-color: royalblue; border-radius: 5px;"></i></a></li>
+                    </ul>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <center>
+        <img width="370" src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" alt="Saylani-logo">
+        <h2> <u>STUDENT REGISTRATION FORM</u> </h2>
+        <form action="submit.html">
+            <table cellpadding="15">
+                <tr>
+                    <td>FIRST NAME </td>
+                    <td><input type="text" id="name" name="name" size="20" maxlength="30" placeholder="Enter first name"
+                            required="required">(max 30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>LAST NAME </td>
+                    <td><input type="text" id="name" name="name" size="20" maxlength="30" placeholder="Enter last name"
+                            required="required">(max
+                        30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>DATE OF BIRTH </td>
+                    <td>
+                        <select name="day">
+                            <option value="day">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <select name="month">
+                            <option value="month">Month</option>
+                            <option value="january">January</option>
+                            <option value="feburary">Feburary</option>
+                            <option value="march">March</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                            <option value="june">June</option>
+                            <option value="july">July</option>
+                            <option value="august">August</option>
+                            <option value="september">September</option>
+                            <option value="october">October</option>
+                            <option value="november">November</option>
+                            <option value="december">December</option>
+                        </select>
+                        <select name="year">
+                            <option value="year">Year</option>
+                            <option value="1980">1980</option>
+                            <option value="1981">1981</option>
+                            <option value="1982">1982</option>
+                            <option value="1983">1983</option>
+                            <option value="1984">1984</option>
+                            <option value="1985">1985</option>
+                            <option value="1986">1986</option>
+                            <option value="1987">1987</option>
+                            <option value="1988">1988</option>
+                            <option value="1989">1989</option>
+                            <option value="1990">1990</option>
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                            <option value="2011">2011</option>
+                            <option value="2012">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                        </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>EMAIL ID </td>
+                    <td><input type="text" id="name" name="EMAIL ID" placeholder="Enter email address"
+                            required="required"></td>
+                </tr>
+                <tr>
+                    <td>MOBILE NUMBER</td>
+                    <td><input type="number" id="name" name="MOBILE NUMBER" size="20" maxlength="10"
+                            placeholder="Enter mobile number" required="required">(10 digit number)</td>
+                </tr>
+                <tr>
+                    <td>GENDER</td>
+                    <td>Male<input type="radio" id="name" name="GENDER" value="Male">
+                        Female<input type="radio" id="name" name="GENDER" value="Female"></td>
+                </tr>
+                <tr>
+                    <td>ADDRESS</td>
+                    <td><textarea cols="50" rows="6" required="required"></textarea></td>
+                </tr>
+                <tr>
+                    <td>CITY </td>
+                    <td><input type="text" id="name" name="CITY" size="20" maxlength="30"
+                            placeholder="Enter city name">(max
+                        30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>PIN CODE </td>
+                    <td><input type="text" id="name" name="PIN CODE" size="20" maxlength="6" placeholder="Enter pincode"
+                            required="required">(6
+                        digit number)</td>
+                </tr>
+                <tr>
+                    <td>STATE</td>
+                    <td><input type="text" id="name" name="STATE" size="20" maxlength="6" placeholder="Enter state">(max
+                        30
+                        characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>COUNTRY</td>
+                    <td><input type="text" id="name" name="COUNTRY" placeholder="Enter country"></td>
+                </tr>
+                <tr>
+                    <td>HOBBIES</td>
+                    <td>Drawing<input type="checkbox" id="name" name="HOBBIES" value="Drawing">
+                        Singing<input type="checkbox" id="name" name="HOBBIES" value="Singing">
+                        Dancing<input type="checkbox" id="name" name="HOBBIES" value="Dancing">
+                        Sketching<input type="checkbox" id="name" name="HOBBIES" value="Sketching"><br><br>
+                        Others<input type="checkbox" id="name" name="HOBBIES" value="Others">
+                        <input type="text" id="name" name="HOBBIES">
+                    </td>
+                </tr>
+                <tr>
+                    <td>QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td>
+
+                    <td>
+                        <table>
+
+                            <tr>
+                                <td align="center">S.No.</td>
+                                <td align="center">Examination</td>
+                                <td align="center">Board</td>
+                                <td align="center">Percentage</td>
+                                <td align="center">Year of Passing</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text" name="ClassX_Board" maxlength="30" required="required" /></td>
+                                <td><input type="text" name="ClassX_Percentage" maxlength="30" required="required" />
+                                </td>
+                                <td><input type="text" name="ClassX_YrOfPassing" maxlength="30" required="required" />
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+                                <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+                                <td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text" name="Graduation_Board" maxlength="30" /></td>
+                                <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+                                <td><input type="text" name="Graduation_YrOfPassing" maxlength="30" /></td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text" name="Masters_Board" maxlength="30" /></td>
+                                <td><input type="text" name="Masters_Percentage" maxlength="30" /></td>
+                                <td><input type="text" name="Masters_YrOfPassing" maxlength="30" /></td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td align="center">(10 char max)</td>
+                                <td align="center">(upto 2 decimal)</td>
+                            </tr>
+                        </table>
+                    </td>
+                <tr>
+                    <td>COURSES<br />APPLIED FOR</td>
+                    <td>BCA<input type="radio" id="name" name="COURSES" value="BCA">
+                        B.Com<input type="radio" id="name" name="COURSES" value="B.Com">
+                        B.Sc<input type="radio" id="name" name="COURSES" value="B.Sc">
+                        B.A<input type="radio" id="name" name="COURSES" value="B.A">
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center> -->
+</body>
+
+</html>
